@@ -9,7 +9,7 @@ $(call inherit-product, vendor/Gummy/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 
-$(call inherit-product, device/lge/mako/full_hammerhead.mk)
+$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hammerhead
