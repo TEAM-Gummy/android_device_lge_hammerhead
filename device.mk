@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bdAddrLoader
 
+# Boot faster
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.hw_quickpoweron=true
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
 
