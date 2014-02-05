@@ -202,6 +202,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.hw_quickpoweron=true
 
+# msm_rng entropy feeder
+PRODUCT_PACKAGES += \
+    qrngd \
+    qrngp
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
 
@@ -292,7 +297,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.speaker=false \
     af.resampler.quality=4 \
     audio.offload.buffer.size.kb=32 \
-    audio.offload.gapless.enabled=true \
+    audio.offload.gapless.enabled=false \
     av.offload.enable=true
 
 # Setup custom emergency number list based on the MCC. This is needed by RIL
