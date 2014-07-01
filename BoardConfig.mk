@@ -101,7 +101,7 @@ BOARD_SEPOLICY_DIRS := \
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := gummy_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION := \
