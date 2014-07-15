@@ -133,6 +133,7 @@ BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 #TWRP
+RECOVERY_VARIANT := twrp
 DEVICE_RESOLUTION := 1080x1920
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
