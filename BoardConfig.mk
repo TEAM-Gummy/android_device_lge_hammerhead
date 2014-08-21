@@ -99,7 +99,7 @@ BOARD_SEPOLICY_DIRS := \
        device/lge/hammerhead/sepolicy
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := gummy_hammerhead_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
